@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Click Game</title>
+</head>
+<body>
+    <main>
+        <article>
+            <span id="all-time">00:00</span>
+            <label for="#entered-time">Enter your time in seconds</label>
+            <input type="number" id="entered-time" />
+            <button id="start-button" onclick="startGame()">Start Game</button>
+            <p id="score-made">Score:<span id="current-result">0</span>  </p>
+        </article>
+        <article>
+            <img id="kakashi-image" src="./images/kakashi.png" alt="Alternate Text" />
+            <img id="cloud-image" src="./images/cloud.png" alt="Alternate Text" />
+            <p id="kakashi-text">Lets see how many clicks you can make until times up !</p>
+        </article>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

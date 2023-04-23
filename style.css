@@ -1,0 +1,73 @@
+html {
+    font-family: Helvetica, sans-serif;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url("./images/forest.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%
+}
+
+main label {
+    color:white;
+    font-size:20px;
+}
+
+#entered-time {
+    width:82px;
+}
+
+#all-time {
+    background-color: white;
+    padding: 20px 34px;
+    display: inline;
+    font-size: 30px;
+}
+
+#score-made {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 10px;
+    color: white
+}
+
+#kakashi-image {
+    width: 400px;
+    margin-bottom: -5px;
+    margin-left: 600px
+}
+
+#cloud-image {
+    position:absolute;
+    margin-left:-870px;
+    margin-top:-100px;
+    width:1000px
+}
+
+#kakashi-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: -520px;
+    margin-left: 505px;
+    font-size: 24px;
+    width: 250px
+}
